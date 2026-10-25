@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+   <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07162b">
+  <meta name="description" content="Social media dan support RAFAEL TOKUFANS">
+  <title>RAFAEL • TOKUFANS ⚡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+
+  <main class="container">
+    <header class="profile">
+      <div class="avatar-border">
+        <img src="RAFAEL TOKUFANS Profile.webp" alt="Foto profil Rafael"
+             class="avatar">
+      </div>
+
+  <p class="welcome">WELCOME TO MY WORLD</p>
+  <h1>RAFAEL <span>• TOKUFANS</span> ⚡</h1>
+  <p class="bio">Thanks for you ⚡</p>
+
+  <div class="badge">
+    <span class="online-dot"></span>
+    TOKUFANS COMMUNITY
+  </div>
+</header>
+
+<section class="section">
+  <div class="section-title">
+    <span></span>
+    <h2>SOCIAL MEDIA</h2>
+    <span></span>
+  </div>
+
+  <div class="links">
+    <a class="link-card tiktok"
+       href="https://www.tiktok.com/@rafaelfirdaus_168"
+       target="_blank" rel="noopener noreferrer">
+      <div class="icon"><i class="fa-brands fa-tiktok"></i></div>
+      <div class="link-info">
+        <strong>TikTok</strong>
+        <small>@rafaelfirdaus_168</small>
+      </div>
+      <div class="arrow">↗</div>
+    </a>
+
+    <a class="link-card instagram"
+       href="https://www.instagram.com/rafaelfirdaus_168?psln=NWQ4eGs4NWNmc213"
+       target="_blank" rel="noopener noreferrer">
+      <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+      <div class="link-info">
+        <strong>Instagram</strong>
+        <small>@rafaelfirdaus_168</small>
+      </div>
+      <div class="arrow">↗</div>
+    </a>
+
+    <a class="link-card youtube"
+       href="https://www.youtube.com/@RAFAELTOKUFANZ"
+       target="_blank" rel="noopener noreferrer">
+      <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+      <div class="link-info">
+        <strong>YouTube</strong>
+        <small>RAFAELTOKUFANZ</small>
+      </div>
+      <div class="arrow">↗</div>
+    </a>
+
+    <a class="link-card discord"
+       href="https://discord.gg/rhcFnt8M3"
+       target="_blank" rel="noopener noreferrer">
+      <div class="icon"><i class="fa-brands fa-discord"></i></div>
+      <div class="link-info">
+        <strong>Discord Server</strong>
+        <small>Join the community</small>
+      </div>
+      <div class="arrow">↗</div>
+    </a>
+  </div>
+</section>
+
+<section class="section support">
+  <div class="section-title">
+    <span></span>
+    <h2>SUPPORT</h2>
+    <span></span>
+  </div>
+
+  <div class="links">
+    <a class="link-card saweria"
+       href="https://saweria.co/RAFAEL340"
+       target="_blank" rel="noopener noreferrer">
+      <div class="icon brand-icon">
+       <img src="Saweria.png" alt="Logo Saweria">
+      </div>
+      <div class="link-info">
+        <strong>Saweria</strong>
+        <small>Support my work</small>
+      </div>
+      <div class="arrow">↗</div>
+    </a>
+
+    <a class="link-card sociabuzz"
+       href="https://sociabuzz.com/rtk_rafa34/tribe"
+       target="_blank" rel="noopener noreferrer">
+      <div class="icon brand-icon">
+        <img src="Sociabuzz.png" alt="Logo SociaBuzz">
+      </div>
+      <div class="link-info">
+        <strong>Sociabuzz</strong>
+        <small>Join my tribe</small>
+      </div>
+      <div class="arrow">↗</div>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>⚡ MADE WITH PASSION ⚡</p>
+  <small>© <span id="year"></span> RAFAEL • TOKUFANS</small>
+</footer>
+
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+<style>
+    :root {
+--cyan: #43e7ff;
+--blue: #388bff;
+--text: #f1f8ff;
+--muted: #9db4ce;
+}
+
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+min-height: 100vh;
+overflow-x: hidden;
+font-family: Arial, Helvetica, sans-serif;
+color: var(--text);
+background:
+radial-gradient(ellipse at top, #174b79 0%, #0a203b 45%, #061326 100%);
+}
+
+body::before {
+content: "";
+position: fixed;
+inset: 0;
+pointer-events: none;
+background-image:
+linear-gradient(#53c9ff0b 1px, transparent 1px),
+linear-gradient(90deg, #53c9ff0b 1px, transparent 1px);
+background-size: 35px 35px;
+}
+
+.glow {
+position: fixed;
+width: 260px;
+height: 260px;
+border-radius: 50%;
+filter: blur(100px);
+opacity: .25;
+pointer-events: none;
+}
+
+.glow-one {
+background: #087dff;
+top: 10%;
+left: -150px;
+}
+
+.glow-two {
+background: #00d9e8;
+right: -150px;
+top: 45%;
+}
+
+.container {
+width: min(100% - 32px, 500px);
+margin: auto;
+padding: 40px 0 25px;
+position: relative;
+}
+
+.profile {
+text-align: center;
+margin-bottom: 35px;
+}
+
+.avatar-border {
+width: 125px;
+height: 125px;
+margin: 0 auto 20px;
+padding: 4px;
+border-radius: 50%;
+background: linear-gradient(135deg, var(--cyan), #347aff, #995cff);
+box-shadow: 0 0 30px #35bfff55;
+}
+
+.avatar {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+border: 3px solid #07162b;
+}
+
+.welcome {
+color: var(--cyan);
+font-size: 10px;
+font-weight: bold;
+letter-spacing: 3px;
+}
+
+h1 {
+font-size: clamp(19px, 5vw, 26px);
+line-height: 1.5;
+margin: 10px 0;
+text-shadow: 0 0 18px #43e7ff30;
+}
+
+h1 span {
+color: var(--cyan);
+}
+
+.bio {
+color: #c1d5ea;
+font-size: 13px;
+}
+
+.badge {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+padding: 8px 12px;
+margin-top: 5px;
+border: 1px solid #43e7ff33;
+background: #0b2745aa;
+border-radius: 5px;
+color: #a8cce9;
+font-size: 9px;
+letter-spacing: 1.5px;
+}
+
+.online-dot {
+width: 7px;
+height: 7px;
+border-radius: 50%;
+background: #4cffbd;
+box-shadow: 0 0 8px #4cffbd;
+}
+
+.section {
+margin-top: 28px;
+}
+
+.section-title {
+display: flex;
+align-items: center;
+gap: 13px;
+margin-bottom: 16px;
+}
+
+.section-title h2 {
+white-space: nowrap;
+font-size: 13px;
+letter-spacing: 2px;
+}
+
+.section-title span {
+height: 1px;
+flex: 1;
+background: linear-gradient(90deg, transparent, #43e7ff99);
+}
+
+.section-title span:last-child {
+transform: rotate(180deg);
+}
+
+.links {
+display: grid;
+gap: 12px;
+}
+
+.link-card {
+--accent: var(--cyan);
+
+position: relative;
+display: flex;
+align-items: center;
+gap: 14px;
+min-height: 72px;
+padding: 12px 15px;
+overflow: hidden;
+
+color: var(--text);
+text-decoration: none;
+border: 1px solid #5daee733;
+border-radius: 9px;
+background: linear-gradient(110deg, #102d4bea, #091b32ed);
+box-shadow: 0 7px 20px #00000020;
+
+transition: transform .2s, border-color .2s, box-shadow .2s;
+}
+
+.link-card::before {
+content: "";
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+width: 3px;
+background: var(--accent);
+}
+
+.link-card:hover {
+transform: translateY(-3px);
+border-color: #43e7ff99;
+box-shadow: 0 10px 25px #0088ff20;
+}
+
+.icon {
+flex: 0 0 42px;
+height: 42px;
+display: grid;
+place-items: center;
+border-radius: 8px;
+color: var(--accent);
+background: #42b4ff15;
+border: 1px solid #59c4ff30;
+font-size: 23px;
+font-weight: bold;
+}
+
+.link-info {
+display: flex;
+flex-direction: column;
+gap: 4px;
+min-width: 0;
+flex: 1;
+}
+
+.link-info strong {
+font-size: 13px;
+}
+
+.link-info small {
+color: var(--muted);
+font-size: 10px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.arrow {
+color: #7ca8cc;
+font-size: 21px;
+transition: transform .2s;
+}
+
+.link-card:hover .arrow {
+color: var(--cyan);
+transform: translate(2px, -2px);
+}
+
+.tiktok { --accent: #65f5f4; }
+.instagram { --accent: #f86bda; }
+.youtube { --accent: #ff646e; }
+.discord { --accent: #8699fa; }
+.saweria { --accent: #fbba49; }
+.sociabuzz { --accent: #5ed14e; }
+
+.support {
+margin-top: 32px;
+}
+
+footer {
+margin-top: 36px;
+text-align: center;
+color: #7796b5;
+font-size: 10px;
+letter-spacing: 2px;
+}
+
+footer small {
+display: block;
+margin-top: 10px;
+color: #6683a0;
+letter-spacing: .5px;
+}
+
+@media (max-width: 380px) {
+.container {
+width: calc(100% - 24px);
+padding-top: 28px;
+}
+
+.avatar-border {
+width: 112px;
+height: 112px;
+}
+
+.link-card {
+padding: 11px;
+}
+}
+
+@media (prefers-reduced-motion: reduce) {
+*,
+*::before,
+*::after {
+transition: none !important;
+}
+}
+
+/* Ikon media sosial */
+.icon {
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 24px;
+  transition: transform 0.25s ease;
+}
+
+.link-card:hover .icon {
+  transform: scale(1.1);
+}
+
+/* Warna khas setiap platform */
+.tiktok .icon {
+  color: #25f4ee;
+}
+
+.instagram .icon {
+  color: #e4405f;
+}
+
+.youtube .icon {
+  color: #ff0033;
+}
+
+.discord .icon {
+  color: #5865f2;
+}
+
+.saweria .icon {
+  color: #ffc86a;
+}
+
+.sociabuzz .icon {
+  color: #ff9c82;
+}
+
+/* Logo asli Saweria dan SociaBuzz */
+.brand-icon {
+  flex: 0 0 46px;
+  width: 46px;
+  height: 46px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.brand-icon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Hilangkan dekorasi ikon lama */
+.brand-icon {
+  font-size: 0;
+}
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+// Tahun otomatis di bagian footer
+const year = document.getElementById("year");
+
+if (year) {
+year.textContent = new Date().getFullYear();
+}
+
+// Efek klik ringan pada tombol
+document.querySelectorAll(".link-card").forEach(function (card) {
+card.addEventListener("pointerdown", function () {
+card.style.transform = "scale(0.99)";
+});
+
+```
+function resetCard() {
+  card.style.removeProperty("transform");
+}
+
+card.addEventListener("pointerup", resetCard);
+card.addEventListener("pointercancel", resetCard);
+card.addEventListener("pointerleave", resetCard);
+```
+
+});
+});
+</script>
